@@ -70,7 +70,7 @@ Mapstraction: {
 			url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner/1.0.0/sat/{z}/{x}/{y}.jpg'
 		};
 		
-		var subdomains = [1, 2, 3, 4];
+		var subdomains = ['a', 'b', 'c', 'd'];
 		this.addTileLayer (this.road_tile.url, 1.0, this.road_tile.name, this.road_tile.attribution, 0, 18, true, subdomains);
 		this.addTileLayer (this.satellite_tile.url, 1.0, this.satellite_tile.name, this.satellite_tile.attribution, 0, 18, true, subdomains);
 
