@@ -60,12 +60,12 @@ Mapstraction: {
 		// outside of the US.
 
 		this.road_tile = {
-			name: 'Roads',
+			name: 'Mapa',
 			attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">',
 			url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png'
 		};
 		this.satellite_tile = {
-			name: 'Satellite',
+			name: 'Foto',
 			attribution: 'Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency',
 			url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 		};
