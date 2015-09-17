@@ -62,12 +62,12 @@ Mapstraction: {
 		this.road_tile = {
 			name: 'Roads',
 			attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">',
-			url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner/1.0.0/map/{z}/{x}/{y}.jpg'
+			url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png'
 		};
 		this.satellite_tile = {
 			name: 'Satellite',
 			attribution: 'Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency',
-			url: 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner/1.0.0/sat/{z}/{x}/{y}.jpg'
+			url: 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 		};
 		
 		var subdomains = ['a', 'b', 'c', 'd'];
